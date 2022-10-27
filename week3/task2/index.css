@@ -1,0 +1,131 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: new Georgia, Times, serif, cursive;
+    font-size: 15px;
+  
+  }
+  .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px auto;
+    max-width: 950px;
+    color: white;
+  }
+  .column {
+    height: 600px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px; 
+  }
+  
+  img {
+    height: 40px;
+    width: 64px
+   }
+   .heading {
+    padding-top: 50%;
+    padding-bottom: 20px;
+   }
+   h1 {
+    font-size: 40px;
+    font-weight: 700px;
+   }
+   p {
+    font-family: new Georgia, Times, serif, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+   }
+  .button {
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    justify-items: center;
+    height: 50px;
+    width: 135px;
+  }
+  .first-column {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 12px 0px 0px 12px;
+  }
+  .first-column .button a {
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+  .second-column {
+    background-color: hsl(184, 100%, 22%);
+  }
+  .second-column .button a {
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+    .third-column{
+     background-color: hsl(179, 100%, 13%);
+     border-radius: 0px 12px 12px 0px;
+  }
+  .third-column .button a {
+     color: hsl(179, 100%, 13%);
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+  .gridbody {
+    background-color: #030d16;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  main {
+    display: grid;
+    grid-template-areas:
+    'a a b'  
+    'c d d'
+    'c e e'
+    ;
+    gap: 10px;
+    width: 50px;
+    margin: auto;
+    height: 100px;
+  
+  }
+  main div{
+    padding: 2em;
+    text-align: center;
+  }
+  .item-a {
+    background-color: hsl(4, 77%, 52%);
+  grid-area: a;
+  }
+  .item-b {
+    background-color:  hsl(31, 77%, 52%);
+    grid-area: b;
+  }
+  .item-c{
+    background-color:  hsl(130, 100%, 26%);
+    grid-area: c;
+  }
+  .item-d{
+    background-color: hsl(209, 88%, 50%);
+    grid-area: d;
+  }
+  .item-e{
+    background-color: hsl(209, 88%, 50%);
+    grid-area: e;
+  }
+  h5 {
+    font-family: new Georgia, Times, serif, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+  .button a{
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
