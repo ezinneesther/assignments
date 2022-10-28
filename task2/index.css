@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: auto;
+    font-family: Josefin Sans, sans-serif;
+    box-sizing: border-box;
+    
+    
+  }
+  .hero {
+    width: 100%;
+    background-image: url(picture.jpg);
+    background-size: cover;
+    background-position: center-bottom;
+    padding: 15px 10px;
+    height: 110vh;
+    position: relative;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 25px;
+  }
+  .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  span{
+    color: #be16d4;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  nav ul li a:hover{
+    color: #be16d4;
+    transform: .4s;
+  }
+  .btn{
+    background-color: #be16d4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: capitalize;
+  }
+  .info{
+    position: absolute;
+    content: 30%;
+    left: 88%;
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    border: 18px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(-50%)
+  }
+  h3{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75%;
+  }
+  .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+  }
+    .about img{
+    height: auto;
+    width: 430px;
+  }
+  .about-text{
+    width: 55opx;
+  }
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  h1{
+    color: white;
+    font-size: 250%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  h4{
+    color: white;
+    border-spacing: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  p{
+    color: #e70de7cc;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 45px;
+    line-height: 28px;
+    font: sans-serif;
+  }
+  .service{
+    background: #10101010;
+    width:100%;
+    padding: 100px 0px;
+  }
+  .title h2{
+    color: white;
+    width: 430px;
+    font-size: 75px;
+    margin: auto 30px;
+    text-align: center;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px;
+    background: #101010;
+    border-radius: 20PX;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align-last: center;
+  }
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px opx;
+    color:  #be16d4;
+  }
+  .h5{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 23px;
+  }
+  .pra{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+  .card .button{
+     background-color: #be16d4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    border-radius: 9px 22px;
+    text-transform: capitalize;
+  }
+  .card .button:hover{
+    color: #be16d4;
+    transform: .4s;
+  }
+  .contact me{
+    width: 100px;
+    visibility: 290px;
+    background: #191919;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .contact me .buttom two{
+    background-color: #be16d4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: capitalize;
+  }
+  .contact me .buttom two:hover{
+    color: #be16d4;
+    transform: .4s;
+  }
+  fooo{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  fooo p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  fooo p:nth-child(2){
+    font-size: 17px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    line-height: 26px;
+  
+  }
+  social{
+    display: flex;
+  }
+  social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+  }
